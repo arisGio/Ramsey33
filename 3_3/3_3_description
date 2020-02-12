@@ -1,0 +1,8 @@
+In this file we examine the 3,3 case (red complete graph with 3 vertices, blue complete graph with 3 vertices).
+If we want to move on to other cases then we need to modify the energy calculation. E.g. for the 
+3,4 case (red complete graph with 3 vertices, blue complete graph with 4 vertices) we cannot just generalize so 
+easily the already existing way of calculation. Maybe there must be two terms now in the Hamiltonian for each 
+color respectively but I have no clue yet how to proceed.
+
+However the graphs are plotted correctly, after many checks I did, and the energy functions are semilogarithmic
+plots so that there is a more smooth curve, instead of having jumps.
