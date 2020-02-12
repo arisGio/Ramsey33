@@ -1,0 +1,7 @@
+In the ramsey.m MATLAB code:
+  n: # of vertices
+  trials: # of trials
+  beta: dimensionless inverse temperature
+  B: Bonds matrix (in graph theory is called (weighted) Adjacency Matrix for an undirected (weighted) graph)
+  three_energy(n,B): is a function that returns the energy w.r.t. triangles
+  acceptance(beta,delta_energy): is a function that returns the acceptance for some energy difference between 2 configurations
